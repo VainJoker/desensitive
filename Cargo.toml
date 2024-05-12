@@ -2,5 +2,20 @@
 name = "desensitive"
 version = "0.1.0"
 edition = "2021"
+authors = ["Jasper Zhang <vainjoker@tuta.io>"]
+description = "A procedural macro library that helps you implement data desensitization"
+keywords = ["masking","desensitive"]
+repository = "https://github.com/vainjoker/desensitive"
+homepage = "https://github.com/vainjoker/desensitive"
+readme = "README.md"
+license = "GPL-3.0"
+exclude = [
+  "assets/*",
+  ".github",
+  "Makefile.toml",
+  "CHANGELOG.md",
+  "*.log",
+  "tags",
+]
 
 [dependencies]
